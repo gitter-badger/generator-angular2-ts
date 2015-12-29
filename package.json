@@ -1,20 +1,17 @@
 {
-  "name": "generator-angular2",
-  "version": "0.6.3",
-  "description": "Angular2 Yeoman Generator",
-  "license": "MIT",
-  "main": "app/index.js",
+  "name": "generator-angular2-ts",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/swirlycheetah/generator-angular2.git"
+    "url": "git://github.com/rrgarciach/generator-angular2-ts.git"
   },
-  "author": "Chris Wheatley <chriswheatley87@gmail.com>",
+  "author": "Ruy Garcia <rrgarciach@gmail.com>",
   "bugs": {
-    "url": "https://github.com/swirlycheetah/generator-angular2/issues"
+    "url": "https://github.com/rrgarciach/generator-angular2-ts/issues"
   },
-  "homepage": "https://github.com/swirlycheetah/generator-angular2",
+  "homepage": "https://github.com/rrgarciach/generator-angular2-ts",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4.2"
   },
   "scripts": {
     "test": "mocha"
@@ -27,7 +24,7 @@
     "angular",
     "angularjs2",
     "angular2",
-    "es6"
+    "typescript"
   ],
   "preferGlobal": true,
   "dependencies": {

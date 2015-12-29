@@ -1,28 +1,37 @@
 <!doctype html>
 <html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><%= appname %></title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mantis-ui-3</title>
+</head>
+<body>
 
-    <main>Loading...</main>
+<main>Loading...</main>
 
-    <script src="lib/traceur-runtime.js"></script>
-    <script src="lib/system-csp-production.src.js"></script>
-    <script src="lib/Reflect.js"></script>
+<script src="lib/system-csp-production.src.js"></script>
+<script src="lib/Reflect.js"></script>
+<script src="lib/system.src.js"></script>
+<script src="lib/Rx.js"></script>
+<script src="lib/angular2.js"></script>
+<script src="lib/http.js"></script>
+<script src="lib/router.js"></script>
+<script src="lib/angular2-polyfills.js"></script>
+<script src="lib/upgrade.js"></script>
 
-    <script>
-      System.config({defaultJSExtensions: true});
-    </script>
+<script>
+  System.config({
+    packages: {
+      app: {
+        format: 'register',
+        defaultExtension: 'js'
+      }
+    }
+  });
+  System.import('app.js')
+          .then(null, console.error.bind(console));
+</script>]
 
-    <script src="lib/angular2.js"></script>
-
-    <script>
-      System.import('index').catch(console.log.bind(console));
-    </script>
-
-  </body>
+</body>
 </html>
