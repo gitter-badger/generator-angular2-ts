@@ -1,6 +1,6 @@
 # Generator Angular2 with TypeScript
 
-[![Build Status](https://secure.travis-ci.org/rrgarciach/generator-angular2.png?branch=master)](https://travis-ci.org/rrgarciach/generator-angular2)  [![Join the chat at https://gitter.im/rrgarciach/generator-angular2](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/swirlycheetah/generator-angular2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://secure.travis-ci.org/rrgarciach/generator-angular2-ts.png?branch=master)](https://travis-ci.org/rrgarciach/generator-angular2-ts)  [![Join the chat at https://gitter.im/rrgarciach/generator-angular2-ts](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rrgarciach/generator-angular2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [Yeoman](http://yeoman.io) Generator for bootstrapping Angular2 application with TypeScript.
 
